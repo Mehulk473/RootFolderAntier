@@ -1,0 +1,115 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <label for="Value A">Enter value 1</label>
+    <input type="text" id="one" />
+    <br />
+    <label for="Value B">Enter value 2</label>
+    <input type="text" id="two" />
+    <br />
+    <br />
+    <label for="Value C">Result</label>
+    <input type="text" id="result" />
+    <br />
+    <input type="button" onclick="show()">
+</body>
+
+</html>
+<script>
+    function show(){
+    var x, y, z
+    x = document.getElementById("one").value;
+    y = document.getElementById("two").value;
+    z = parseInt(x) + parseInt(y);
+    document.getElementById("result").value = z;
+    }
+</script> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <label for="Value1">Price</label>
+    <input type="text" id="one" />
+    <br />
+    <label for="Value2">Quantity</label>
+    <input type="text" id="two" />
+    <br />
+    <label for="Value3">Bill</label>
+    <input type="text" id="three" />
+    <br />
+    <label for="Value4">Discount</label>
+    <input type="text" id="four" />
+    <br />
+    <label for="Value5">net</label>
+    <input type="text" id="five" />
+    <br />
+    <input type="button"value onclick="show()"
+</body>
+
+</html>
+<script>
+    function show(){
+    var a,b,c,d,e
+    a = document.getElementById("one").value;
+    b = document.getElementById("two").value;
+    c = a *b ;
+    document.getElementById("three").value = c;
+    }
+</script> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bill</title>
+</head>
+<body>
+    <label for="value1">Price</label>
+    <input type="text" id="one"/>
+    <br/>
+    <label for="value2">quantity</label>
+    <input type="text" id="two"/>
+    <br/>
+    <label for="value3">bill</label>
+    <input type="text" id="three"/>
+    <br/>
+    <label for="value4">disc</label>
+    <input type="text" id="four"/>
+    <br/>
+    <label for="value5">net</label>
+    <input type="text" id="five"/>
+    <br/>
+    <input type="button" value="result" onclick="show()">
+
+</body>
+</html>
+<script>
+    function show(){
+        var a,b,c,d,e,disc;
+        a=document.getElementById("one").value;
+        b=document.getElementById("two").value;
+        c=a * b;
+        document.getElementById("three").value=c;
+        d=document.getElementById("four").value;
+       
+        disc=c*.10;
+        e= c - disc;
+        document.getElementById("five").value=e;
+    }
+</script>

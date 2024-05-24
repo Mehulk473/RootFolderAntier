@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <label for="value1">Enter Income</label>
+    <input type="text" id="inc" />
+    <br>
+    <label for="value1">Tax</label>
+    <input type="text" id="tax1" />
+    <input type="button" value="show" onclick="show()">
+<br>
+<br><br><br>
+    <input type="button" value="start" onclick="startchange()">
+    <input type="button" value="stop" onclick="stop()">
+    <p id="change"">Mehul</p>
+</body>
+
+</html>
+<script>
+    var x;
+    var i=0;
+    list=["red","purple","blue","yellow"];
+
+    function show(){
+        var i;
+        i=document.getElementById("inc").value;
+        if(i < 300000){
+            document.getElementById("tax1").value="NA";
+        }
+        else if(i => 300000){
+            document.getElementById("tax1").value=300;
+             if(i > 500000){
+            document.getElementById("tax1").value=500;
+             if(i > 700000){
+            document.getElementById("tax1").value=700;
+        }   
+    }
+}
+}
+function startchange(){
+    x = setInterval(change,1000);
+}
+
+function change(){
+    // document.bgColor=list[i];
+    var a;
+    a=document.getElementById("change");
+    a.style.color=list[i];
+    i++;
+    if(i>4){
+        i=0
+    }
+
+}
+function stop(){
+    clearInterval(x);
+}
+
+</script>

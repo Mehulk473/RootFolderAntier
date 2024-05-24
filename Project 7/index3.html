@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <form action="#" method="post" id="myForm">
+        <fieldset>
+            <legend>Form</legend>
+            <label for="#name">Name:</label>
+            <input type="text" id="name"foir name="one">
+            <br><br>
+            <label for="#button">Button:</label>
+            <input type="button" value="Reset" id="button" name="two">
+            <br><br>
+            <label for="#file">File:</label>
+            <input type="file" name="" id="file" name="three">
+            <br><br>
+            <label for="#reset">Reset:</label>
+            <input type="reset" value="Reset" id="reset" name="four">
+            <br><br>
+            <label for="#time">Datetime-local:</label>
+            <input type="datetime-local" id="time" name="five" >
+            <br><br>
+            <label for="#date">Date:</label>
+            <input type="date" name="six" id="date" >
+            <br><br>
+            <label for="#datetime">Datetime:</label>
+            <input type="datetime" name="seven" id="datetime">
+            <br><br>
+            <label for="#email">Email:</label>
+            <input type="email" name="eight" id="email">
+            <br><br>
+            <label for="#password">Password:</label>
+            <input type="password" name="nine" id="password">
+            <br><br>
+            <label for="#radio1">Radio Button:</label>
+            <input type="radio" name="10" id="radio1">
+            <input type="radio" name="11" id="radio1">
+            <input type="radio" name="12" id="radio1">
+            <input type="radio" name="13" id="radio1">
+            <br><br>
+            <select name="" id="">
+                <optgroup label="My Names"></optgroup>
+                <option value="ABC">ABC</option>
+                <option value="abc">abc</option>
+                <option value="123">123</option>
+            </select>
+            <br><br>
+            <label for="#textarea">Text Area:</label>
+            <textarea name="" id="textarea" rows="5" cols="5">My Name is Mehul</textarea>
+            <br><br>
+            <label for="#box">CheckBox:</label>
+            <input type="checkbox" name="" id="box">
+            <br><br>
+            <label for="">Color</label>
+            <input type="color" name="" id="">
+            <label for="#"></label>
+            <!-- <input type="range" name="" value="50" id="num1">+
+            <input type="number" name="" id="num2">
+            <output name="sum" for="num1 num2"></output> -->
+            <br><br>
+            <label for="">Submit:</label>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+<script>
+const form = document.getElementById('myForm');
+
+function formDataToObject(formData) {
+  const jsonObject = {};
+  for (const [key, value] of formData.entries()) {
+    jsonObject[key] = value;
+  }
+  return jsonObject;
+};
+
+form.addEventListener('submit', function (event) {
+  event.preventDefault();
+  
+  const formData = new FormData(form);
+  const jsonObject = formDataToObject(formData);
+  const jsonString = JSON.stringify(jsonObject);
+  
+  const blob = new Blob([jsonString], { type: 'application/json' });
+
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+
+  link.download = 'json-me-convert-hogya.json';
+
+  document.body.appendChild(link);
+  link.click();
+
+  document.body.removeChild(link);
+  URL.revokeObjectURL(link.href);
+});
+</script>
+
+</html>

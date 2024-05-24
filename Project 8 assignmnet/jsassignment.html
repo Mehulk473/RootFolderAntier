@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            text-align: center;
+            background-color: aquamarine;
+        }
+        h2{
+            color: palevioletred;
+        }
+        #attempt{
+            color: palevioletred;
+        }
+
+    </style>
+</head>
+<body>
+    <fieldset>
+    <h2>Login</h2>
+    <input type="text" name="" id="email1" placeholder="Email" >
+    <br><br>
+    <input type="text" name="password" id="password" placeholder="Password">
+    <br><br>
+    <div id="div1">
+
+    </div>
+    <input type="submit" value="Submit" id="attempt" onclick="show()">
+</fieldset>
+</body>
+</html>
+<script>
+    var c=3;
+    function show(){
+    if(email1.value=="a@a.a" && password.value=="123"){
+        div1.textContent="You are Logged IN";
+
+    }
+    else{
+        if(c>0){
+        c--;
+        div1.textContent=" You Have " + (c) + " Chances left ";
+    }
+    else{
+        email1.style.display="none";
+    }
+}
+}
+
+</script>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+        <fieldset>
+            <h3>String Method</h3>
+            <label for="textbox1">Enter Name:</label>
+            <input type="text" id="textbox1">
+            <br><br>
+            <label for="result1">Result:</label>
+            <input type="text" name="" id="result1">
+            <br><br>
+            <input type="button" value="Upper" onclick="show1()">
+            <input type="button" value="Lower" onclick="show2()">
+            <input type="button" value="Length" onclick="show3()">
+            <input type="button" value="Index" onclick="show4()">
+            <input type="button" value="Character" onclick="show5()">
+            <input type="button" value="Repeat" onclick="show6()">
+            <input type="button" value="Trim" onclick="show7()">
+            <input type="button" value="Starts With" onclick="show8()">
+            <input type="button" value="Ends With" onclick="show9()">
+            <input type="button" value="Substr" onclick="show10()">
+            <input type="button" value="Substring" onclick="show11()">
+        </fieldset>
+</body>
+<script>
+    function show1(){
+        var x;
+        x= document.getElementById("textbox1").value;
+        document.getElementById("result1").value=x.toUpperCase();
+    }
+    function show2(){
+        var x;
+        x= document.getElementById("textbox1").value;
+        document.getElementById("result1").value=x.toLowerCase();
+    }
+    function show3(){
+        var x;
+        x= document.getElementById("textbox1").value;
+        document.getElementById("result1").value=x.length;
+    }
+    function show4(){
+        var x;
+        x= document.getElementById("textbox1").value;
+        document.getElementById("result1").value=x.indexOf('p');
+    }
+    function show5(){
+        var x;
+        x= document.getElementById("textbox1").value;
+        document.getElementById("result1").value=x.CharAt('4');
+    }
+    function show6(){
+        var x;
+        x= document.getElementById("textbox1").value;
+        document.getElementById("result1").value=x.repeat(3);
+    }
+    function show7(){
+        var x;
+        x= document.getElementById("textbox1").value;
+        document.getElementById("result1").value=x.trim();
+    }
+    function show8(){
+        var x;
+        x= document.getElementById("textbox1").value;
+        document.getElementById("result1").value=x.startsWith('me');
+    }
+    function show9(){
+        var x;
+        x= document.getElementById("textbox1").value;
+        document.getElementById("result1").value=x.endsWith('ul');
+    }
+    function show10(){
+        var x;
+        x= document.getElementById("textbox1").value;
+        document.getElementById("result1").value=x.substr(2,4);
+    }
+    function show11(){
+        var x;
+        x= document.getElementById("textbox1").value;
+        document.getElementById("result1").value=x.substring(1,5);
+    }
+
+</script>
+</html>
