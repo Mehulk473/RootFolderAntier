@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+
+    <style>
+        .a {
+            border: 1px solid black;
+            margin: 20px;
+        }
+
+        .three {
+            background-color: greenyellow;
+            position: absolute;
+            top: 40px;
+            left: 60px;
+        }
+
+        .mca {
+            background-color: orange;
+        }
+
+        .six {
+            position: relative;
+            background-color: greenyellow;
+            top: 40px;
+            left: 60px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <p class="a one ">This is a normal paragraph</p>
+
+    <p class="a two">This is a normal paragraph</p>
+
+    <p class="a three">This is an absolutely positioned paragraph at 40px top and 60px left </p>
+
+
+    <div class="mca">
+        <p class="a four">This is a normal paragraph</p>
+
+        <p class="a five">This is a normal paragraph</p>
+
+        <p class="a six">This is an absolutely positioned paragraph inside the div element at 40px top and 60px left
+        </p>
+    </div>
+
+</body>
+
+</html>

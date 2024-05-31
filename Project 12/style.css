@@ -1,0 +1,53 @@
+.main{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    filter: grayscale();
+    padding: 200px;
+    margin: ;
+}
+.a{
+    border: 5px solid black;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.a:hover{
+    transform: scale(2);
+}
+.head{
+    text-align: center;
+}
+ p::first-letter{
+    color: red;
+}
+p::after{
+    content: "*";
+    color: orangered;
+}
+#one:hover{
+    background-color: aqua;
+}
+#two:hover{
+    width: 500px;
+}
+#three:hover{
+    background-color: brown;
+    width: 500px;
+
+}
+#five:checked + label{
+    color: blueviolet;
+}
+
+#six:checked + label{
+    color: aqua;
+}
+#seven:checked + label{
+    color: chartreuse;
+}
+.submit:hover{
+    display: none;
+}
+a:visited{
+    color: rgb(218, 17, 100);
+}

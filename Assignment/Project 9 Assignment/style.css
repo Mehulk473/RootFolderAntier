@@ -1,0 +1,124 @@
+.hotel {
+    display: inline-block;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?cs=srgb&dl=pexels-pixabay-258154.jpg&fm=jpg");
+    background-size: 100% 100%;
+}
+.day{
+    color: white;
+    
+}
+span{
+    color: yellow;
+}
+.night{
+    color: white;
+}
+.second{
+    display: flex;
+}
+.content {
+    padding: 100px;
+    text-align: center;
+    background-color: rgb(104, 98, 98);
+    width: 100%;
+    color: white;
+}
+.img{
+    background-size: 100% 100%;
+}
+
+.child1{
+    display: inline-block;
+    text-align: center;
+    height: 100px;
+    padding: 30px;
+}
+.child2{
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+
+}
+.child3{
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+}
+.parent{
+    text-align: center;
+}
+------------------------------
+.cantainer {
+    margin-left: 30px;
+}
+ .location{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(88, 82, 82);
+    color: white;
+    padding: 20px 20px 20px 20pxx;
+    ;
+}
+.phone{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(88, 82, 82);
+    color: white;
+}
+.email{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(88, 82, 82);
+    color: white;
+}
+cantainer span2{
+    color: lightsalmon;
+}
+#four{
+    background-color: rgb(88, 82, 82);
+    color: white;
+}
+.main2{
+    text-align: center;
+
+}
+.footer1{
+    background-color:  rgb(88, 82, 82);;
+    text-align: center;
+    color: white;
+}
+-----------------
+.few{
+   display: flex;
+
+}
+ .section {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.comment {
+    border: 1px solid lightsalmon;
+    background-color: lightsalmon;
+}
+
+.comment2 {
+    border: 1px solid lightsalmon;
+    background-color: lightsalmon;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.img2{
+    background-size: 100%;
+}
+few section span3{
+    color: lightsalmon;
+}

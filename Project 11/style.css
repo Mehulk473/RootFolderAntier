@@ -1,0 +1,26 @@
+.mapa{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 10px 10px;
+}
+.one{
+    position: absolute;
+    background-color: rgb(32, 247, 236);
+    top: 50px;
+}
+.two{
+    position: ;
+    background-color: blue;
+    top: 10px;
+}
+.three{
+    position: ;
+    background-color: brown;
+    top: 30px;
+}
+.four{
+    position: relative;
+    background-color: blueviolet;
+    top: px;
+}

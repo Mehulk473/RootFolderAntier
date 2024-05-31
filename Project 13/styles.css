@@ -1,0 +1,93 @@
+.container1{
+    display: flex;
+}
+
+.row1r{
+    height: 25px;
+    width: 50%;
+    background-color: red;
+}
+.row1b{
+    height: 25px;
+    width: 50%;
+    background-color: blue;
+}
+.container2{
+    display: flex;
+}
+.row2g{
+    height: 25px;
+    width: 80%;
+    background-color: greenyellow;
+}
+.row2b{
+    height: 25px;
+    width: 20%;
+    background-color: blue;
+}
+.container3{
+    display: flex;
+}
+.row3r{
+    height: 25px;
+    width: 20%;
+    background-color: red;
+}
+.row3g{
+    height: 25px;
+    width: 80%;
+    background-color: greenyellow;
+}
+.row3b{
+    height: 25px;
+    width: 20%;
+    background-color: blue;
+}
+.container4{
+    display: flex;
+}
+
+.row4r{
+    height: 25px;
+    width: 80%;
+    background-color: red;
+}
+.row4b{
+    height: 25px;
+    width: 20%;
+    background-color: blue;
+}
+.container5{
+    display: flex;
+}
+
+.row5g{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 100%;
+    background-color: ;
+}
+.row5r{
+   height: 20px;
+   width: 20px;
+   background-color: red;
+}
+.container6{
+    display: flex;
+}
+
+.row5g{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 100%;
+    background-color: red;
+}
+.row5r{
+    height: 0px;
+    width: 20px;
+    background-color: blue;
+}
