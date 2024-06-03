@@ -67,27 +67,85 @@
     align-items: center;
     height: 25px;
     width: 100%;
-    background-color: ;
+    background-color: greenyellow;
 }
 .row5r{
-   height: 20px;
-   width: 20px;
-   background-color: red;
+    height: 20px;
+    width: 20px;
+    background-color: red;
 }
 .container6{
     display: flex;
 }
 
-.row5g{
+.row6r{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 25px;
     width: 100%;
+    background-color: greenyellow;
+}
+.row6b{
+    height: 25px;
+    width: 100px;
     background-color: red;
 }
-.row5r{
-    height: 0px;
-    width: 20px;
+.container7{
+    display: flex;
+}
+
+.row7r{
+    height: 24px;
+    width: 20%;
+    background-color: red;
+}
+.row7g{
+    height: 24px;
+    width: 80%;
+}
+.row7bl{
+    height: 8px;
+    width: 100%;
     background-color: blue;
 }
+.row7gr{
+    height: 8px;
+    width: 100%;
+    background-color: greenyellow;
+}
+.row7blu{
+    height: 8px;
+    width: 100%;
+    background-color: blue;
+}
+
+.container8{
+    display: flex;
+    justify-content: space-evenly;
+    height: 25px;
+    width: 100%;
+    background-color: yellow;
+}
+.row8g1{
+    height: 25px;
+    width: 25px;
+    background-color: greenyellow;
+}
+.row8g2{
+    height: 25px;
+    width: 25px;
+    background-color: greenyellow;
+}
+.row8g3{
+    height: 25px;
+    width: 25px;
+    background-color: greenyellow;
+}
+.row8g4{
+    height: 25px;
+    width: 25px;
+    background-color: greenyellow;
+}
+
+
