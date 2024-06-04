@@ -3,6 +3,7 @@ body{
 }
 .container1{
     display: flex;
+    padding: 30px;
 }
 .box1{
     height: 80px;
@@ -36,7 +37,7 @@ body{
 .main1{
     height: 100vh;
     width: 15%;
-    border: 1px solid black;
+    border: 1px  black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,31 +46,145 @@ body{
 .main2{
     height: 100vh;
     width: 60%;
-    border: 1px solid black;
+    border: 1px  black;
 }
 .main3{
     height: 100vh;
     width: 25%;
-    border: 1px solid black;
+    border: 1px  black;
 }
 .text{
     writing-mode: vertical-lr;
     word-spacing: 10px;
     letter-spacing: 5px;
 }
-.line{
-    font-size: xx-large;
-} 
 .m3a{
     height: 50px;
     width: 250px;
-    border: 1px solid black;
+    border: 1px  black;
     display: flex;
 }
 .m3a a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.5) ;
 }
-.m3ab{
+.m3b{
+    height: 50px;
+    width: 250px;
+    border: 1px  black;
+    display: flex;
+    margin: 10px;
+}
+.m3b a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5) ;
+}
+.m3c{
+    height: 50px;
+    width: 250px;
+    border: 1px  black;
+    display: flex;
+}
+.m3c a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5) ;
+}
+.main3a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main3 h5{
+    margin-left: 40px;
+}
+.main3a p{
     text-align: center;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+.m3a1{
+    height: 50px;
+    width: 250px;
+    border: 1px  black;
+    display: flex;
+}
+.m3a1 a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5) ;
+}
+.m3b1{
+    height: 50px;
+    width: 250px;
+    border: 1px  black;
+    display: flex;
+    margin: 10px;
+}
+.m3b1 a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5) ;
+}
+.m3c1{
+    height: 50px;
+    width: 250px;
+    border: 1px  black;
+    display: flex;
+}
+.m3c1 a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5) ;
+}
+.main3b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div1 h5{
+    text-align: center;
+}
+.div2 h5{
+    text-decoration: none;
+}
+.main3b p{
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.m3a1{
+    margin-bottom: 40px;
+}
+.m3b1{
+    margin-bottom: 40px;
+}
+.m3c1{
+    margin-bottom: 40px;
+}
+.arch{
+    margin-left: 120px;
+    margin-top: 10px;
+    font-size: 100px;
+    letter-spacing: 2px;
+}
+.content{
+    display: flex;
+}
+.content2{
+    margin-left: 25px;
+    font-size: large;
+}
+.button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    word-spacing: 10px;
+}
+.m3a:hover{
+    background-color: white;
+}
+.m3b:hover{
+    background-color: white;
+}
+.m3c:hover{
+    background-color: white;
 }
