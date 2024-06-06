@@ -1,0 +1,58 @@
+.main{
+    display:;
+}
+.main1{
+    display: flex;
+}
+.main1 div{
+    border: 1px solid black;
+    height: 100px ;
+    width: 100px;
+    text-align: center;
+}
+.main2{
+    display: flex;
+}
+.main2 div{
+    border: 1px solid black;
+    height: 100px ;
+    width: 100px;
+    text-align: center;
+}
+.main3{
+    display: flex;
+}
+.main3 div{
+    border: 1px solid black;
+    height: 100px ;
+    width: 100px;
+    text-align: center;
+}
+.main4{
+    display: flex;
+}
+.main4 div{
+    border: 1px solid black;
+    height: 100px ;
+    width: 100px;
+    text-align: center;
+}
+.box1{
+    transform:perspective(500px) scaleZ(2) rotateY(45deg);
+}
+.box2{
+    transform: scale(1.3,1);
+}
+.box3{
+    transform:perspective(500px) scaleZ(2) rotateY(135deg);
+}
+.box4{
+    transform:perspective(500px) scaleZ(1) rotateY(45deg);
+}
+.box5{
+    /* transform: scale(1,0.7); */
+    transform: rotate();
+}
+.box6{
+    transform:perspective(500px) scaleZ(2) rotateY(45deg);
+}

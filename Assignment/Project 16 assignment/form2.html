@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post" 
+    oninput="deduction.value= parseInt(salary.value)/ parseInt(pf.value),gross.value= parseInt(salary.value) - parseInt(deduction.value)">
+        <fieldset>
+            <legend>Form</legend>
+
+            <label for="salary">Salary</label>
+            <input type="text" name="" id="salary">
+            <br><br>
+            <label for="pf">EPFO</label>
+            <input type="text" name="" id="pf">
+            <br><br>
+            <label for="deduction">Deductions</label>
+            <input type="text" name="" id="deduction">
+            <br><br>
+            <label for="gross">Gross Salary</label>
+            <input type="text" name="" id="gross">
+        </fieldset>
+    </form>
+</body>
+</html>
