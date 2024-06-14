@@ -1,0 +1,162 @@
+body{
+    background-color: #e9e3e3;
+}
+.container{
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 3px;
+    font-family: tablet-gothic, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(-60px);
+    transition-duration:2s ;
+    transition-property:opacity, transform ;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.45, 1.08) ;
+    transition-delay: 5s;
+}
+.cont{
+    opacity: 1;
+    transform: translateY(0px);
+}
+.container2{
+    display: flex;
+}
+.header1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main1{
+    width: 5%;
+    height: 90vh;
+}
+.main1 p{
+    writing-mode: vertical-rl;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 370px;
+}
+.main2{
+    width: 45%;
+    height: 90vh;
+}
+.main2a{
+    font-size: 20px;
+    color: #1E1E1E;
+    opacity: 0.3;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: relative;
+    right: 30px;
+    bottom: 10px;
+    opacity: 0;
+    transform: translateX(-60px);
+    transition-duration:2s ;
+    transition-property:opacity, transform ;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.45, 1.08) ;
+    transition-delay: 2s;
+    
+}
+.head1{
+    opacity: 1;
+    transform: translateX(0px);
+}
+.main2b{
+    color: red;
+    font-size: 130px;
+    font-weight: bolder;
+    font-weight: 800;
+    letter-spacing: 150px;
+    font-family:titling-gothic-fb-wide, sans-serif;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    opacity: 0;
+    transform: scale(2);
+    transition-duration:2s ;
+    transition-property:opacity, transform ;
+    transition-timing-function: ease-in-out ;
+    transition-delay: 1s;
+}
+.brand{
+    opacity: 1;
+    transform: scale(1);
+
+}
+.main2c{
+    position: relative;
+    right: 120px;
+    top: 100px;
+    font-size: 17px;
+    word-spacing: 5px;
+    font-family: tablet-gothic, sans-serif;
+    opacity: 0;
+    transform: translateX(-150px);
+    transition-duration:2s ;
+    transition-property:opacity, transform ;
+    transition-timing-function: cubic-bezier(0.33,-0.12, 0, 1.29) ;
+    transition-delay: 2.5s;
+}
+.logo{
+    opacity: 1;
+    transform: translateX(0px);
+}
+.main2c span{
+    color: red;
+}
+.main2d{
+    color: #1E1E1E;
+    font-size: 50px;
+    font-weight: bolder;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 40px;
+    letter-spacing: 5px;
+    position: relative;
+    left: 60px;
+    top: 130px;
+    font-family: titling-gothic-fb-wide, sans-serif;
+    opacity: 0;
+    transform: translateX(-150px);
+    transition-duration:2s ;
+    transition-property:opacity, transform ;
+    transition-timing-function: cubic-bezier(0.42, 0, 0, 1.26) ;
+    transition-delay: 3.5s;
+}
+.head2{
+    opacity: 1;
+    transform: translateX(0px);
+}
+.main2e{
+    font-size: 15px;
+    font-weight: 1000;
+    font-family: titling-gothic-fb-wide, sans-serif;
+    position: relative;
+    left: 150px;
+    top: 150px;
+    opacity: 0;
+    transform: translateX(-150px);
+    transition-duration:2s ;
+    transition-property:opacity, transform ;
+    transition-timing-function: cubic-bezier(0.42, 0, 0, 1.23);
+    transition-delay: 4s;
+}
+.head3{
+    opacity: 1;
+    transform: translateX(0px);
+}
+.main3img{
+    width: 500px;
+    height: 0vh;
+    transition-duration: 2s;
+    transition-property:height ;
+    transition-timing-function: ease-in-out;
+    transition-delay:2s ;
+}
+.image{
+    height: 90vh;
+}

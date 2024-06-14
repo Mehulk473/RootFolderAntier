@@ -7,21 +7,21 @@
 </head>
 <body>
     <form action="#" method="post" 
-    oninput="deduction.value= parseInt(salary.value)/ parseInt(pf.value),gross.value= parseInt(salary.value) - parseInt(deduction.value)">
+    oninput="deduction.value= parseInt(salary.value)*  (parseInt(pf.value)/100),gross.value= parseInt(salary.value) - parseInt(deduction.value)"> 
         <fieldset>
             <legend>Form</legend>
 
             <label for="salary">Salary</label>
-            <input type="text" name="" id="salary">
+            <input type="text" name="" id="salary"  >
             <br><br>
             <label for="pf">EPFO</label>
             <input type="text" name="" id="pf">
             <br><br>
             <label for="deduction">Deductions</label>
-            <input type="text" name="" id="deduction">
+            <input type="text" name="" id="deduction" disabled>
             <br><br>
             <label for="gross">Gross Salary</label>
-            <input type="text" name="" id="gross">
+            <input type="text" name="" id="gross" disabled>
         </fieldset>
     </form>
 </body>
